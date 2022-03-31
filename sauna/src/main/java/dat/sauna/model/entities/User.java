@@ -1,4 +1,4 @@
-package dat.startcode.model.entities;
+package dat.sauna.model.entities;
 
 import java.util.Objects;
 

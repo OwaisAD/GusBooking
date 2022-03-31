@@ -1,6 +1,6 @@
-package dat.startcode.model.config;
+package dat.sauna.model.config;
 
-import dat.startcode.model.persistence.ConnectionPool;
+import dat.sauna.model.persistence.ConnectionPool;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

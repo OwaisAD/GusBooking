@@ -1,7 +1,7 @@
-package dat.startcode.model.persistence;
+package dat.sauna.model.persistence;
 
-import dat.startcode.model.entities.User;
-import dat.startcode.model.exceptions.DatabaseException;
+import dat.sauna.model.entities.User;
+import dat.sauna.model.exceptions.DatabaseException;
 
 import java.sql.*;
 import java.util.logging.Level;

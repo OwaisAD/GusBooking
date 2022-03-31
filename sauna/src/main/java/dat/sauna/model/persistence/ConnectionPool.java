@@ -1,4 +1,4 @@
-package dat.startcode.model.persistence;
+package dat.sauna.model.persistence;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -12,8 +12,8 @@ public class ConnectionPool
 {
     private HikariDataSource ds;
     private static String USER = "root";
-    private static String PASSWORD = "root";
-    private static String URL = "jdbc:mysql://localhost:3306/startcode";
+    private static String PASSWORD = "ingenting1998";
+    private static String URL = "jdbc:mysql://localhost:3306/sauna";
 
     public ConnectionPool()
     {

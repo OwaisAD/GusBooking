@@ -1,9 +1,9 @@
-package dat.startcode.persistence;
+package dat.sauna.persistence;
 
-import dat.startcode.model.entities.User;
-import dat.startcode.model.exceptions.DatabaseException;
-import dat.startcode.model.persistence.ConnectionPool;
-import dat.startcode.model.persistence.UserMapper;
+import dat.sauna.model.entities.User;
+import dat.sauna.model.exceptions.DatabaseException;
+import dat.sauna.model.persistence.ConnectionPool;
+import dat.sauna.model.persistence.UserMapper;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,8 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserMapperTest
 {
     private final static String USER = "root";
-    private final static String PASSWORD = "root";
-    private final static String URL = "jdbc:mysql://localhost:3306/startcode_test?serverTimezone=CET&allowPublicKeyRetrieval=true&useSSL=false";
+    private final static String PASSWORD = "ingenting1998";
+    private final static String URL = "jdbc:mysql://localhost:3306/sauna_test?serverTimezone=CET&allowPublicKeyRetrieval=true&useSSL=false";
 
     private static ConnectionPool connectionPool;
     private static UserMapper userMapper;

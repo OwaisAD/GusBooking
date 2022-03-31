@@ -1,10 +1,10 @@
-package dat.startcode.control;
+package dat.sauna.control;
 
-import dat.startcode.model.config.ApplicationStart;
-import dat.startcode.model.entities.User;
-import dat.startcode.model.exceptions.DatabaseException;
-import dat.startcode.model.persistence.UserMapper;
-import dat.startcode.model.persistence.ConnectionPool;
+import dat.sauna.model.config.ApplicationStart;
+import dat.sauna.model.entities.User;
+import dat.sauna.model.exceptions.DatabaseException;
+import dat.sauna.model.persistence.UserMapper;
+import dat.sauna.model.persistence.ConnectionPool;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

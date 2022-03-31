@@ -1,6 +1,6 @@
-package dat.startcode.control;
+package dat.sauna.control;
 
-import dat.startcode.model.persistence.ConnectionPool;
+import dat.sauna.model.persistence.ConnectionPool;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
